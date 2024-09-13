@@ -7,7 +7,12 @@ export default defineConfig({
     plugins: [
         react(),
         keycloakify({
-            accountThemeImplementation: "none"
+            themeName: "DinDini",
+            accountThemeImplementation: "none",
+            keycloakVersionTargets: {
+                "21-and-below": false,
+                "22-and-above": "keycloak-theme-DinDini.jar"
+            }
         })
     ]
 });

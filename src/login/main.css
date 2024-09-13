@@ -1,0 +1,12 @@
+@import url(./assets/fonts/main.css);
+
+.kcHeaderWrapperClass {
+    font-family: 'DinDini Brand';
+    text-transform: none !important;
+    color: #46d567;
+}
+
+body.kcBodyClass {
+    background: none;
+    background-color: #00711a;
+}
