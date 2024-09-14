@@ -1,12 +1,33 @@
 @import url(./assets/fonts/main.css);
 
+:root {
+    --pf-global--primary-color--100: #00711a;
+    --pf-global--primary-color--200: #46d567;
+    --pf-global--primary-color--300: #00711a;
+}
+
+.kcHeaderClass {
+    text-align: center;
+}
 .kcHeaderWrapperClass {
     font-family: 'DinDini Brand';
+    font-size: 80px !important;
     text-transform: none !important;
-    color: #46d567;
+    padding: 0 !important;
+    color: var(--pf-global--primary-color--200) !important;
 }
 
 body.kcBodyClass {
     background: none;
-    background-color: #00711a;
+    background-color: var(--pf-global--primary-color--100);
+}
+
+#kc-header {
+    text-align: center;
+}
+
+@media (max-width: 767px) {
+    #kc-current-locale-link {
+        color: #fff !important;
+    }
 }

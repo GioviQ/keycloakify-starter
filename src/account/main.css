@@ -1,0 +1,29 @@
+@import url(./assets/fonts/main.css);
+
+:root {
+    --pf-v5-global--primary-color--100: #00711a;
+    --pf-v5-global--primary-color--200: #036118;
+    --pf-v5-global--primary-color--300: #00711a;
+    --pf-v5-global--active-color--400: #46d567;
+
+    --pf-v5-global--BackgroundColor--dark-100: var(--pf-v5-global--primary-color--100);
+    --pf-v5-global--BackgroundColor--dark-200: var(--pf-v5-global--primary-color--200);
+    --pf-v5-global--BackgroundColor--dark-300: var(--pf-v5-global--primary-color--100);
+    --pf-v5-global--BackgroundColor--dark-400: var(--pf-v5-global--primary-color--200);
+}
+
+.pf-v5-c-button.pf-m-link.pf-m-inline {
+    margin-right: 10px;
+}
+
+.pf-v5-c-avatar {
+    display: none;
+}
+
+.pf-v5-c-page__header-brand-link::after {
+    content: "DinDini";
+    color: #46d567;
+    font-family: 'DinDini Brand';
+    font-size: 32px;
+    margin-top: 5px;
+}

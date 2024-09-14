@@ -8,7 +8,7 @@ export default defineConfig({
         react(),
         keycloakify({
             themeName: "DinDini",
-            accountThemeImplementation: "none",
+            accountThemeImplementation: "Single-Page",
             keycloakVersionTargets: {
                 "21-and-below": false,
                 "22-and-above": "keycloak-theme-DinDini.jar"
