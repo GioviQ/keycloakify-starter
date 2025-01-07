@@ -12,6 +12,7 @@
 .kcHeaderWrapperClass {
     font-family: 'DinDini Brand';
     font-size: 80px !important;
+    font-weight: normal !important;
     text-transform: none !important;
     padding: 0 !important;
     color: var(--pf-global--primary-color--200) !important;
@@ -24,6 +25,10 @@ body.kcBodyClass {
 
 #kc-header {
     text-align: center;
+}
+
+.kcSignUpClass {
+    margin: 20px 0 -30px !important;
 }
 
 @media (max-width: 767px) {
